@@ -18,14 +18,14 @@ public class Response {
     }
     public Response(){}
 
-    public List<String> getStationList() {
+    public List<String> getStation_list() {
         return this.station_list;
     }
 
-    public String getTimeTaken() {
+    public String getTime_taken() {
         return this.time_taken;
     }
-    public String getNumberOfStationsFound(){
+    public String getNumber_of_stations_found(){
         return this.number_of_stations_found;
     }
 
