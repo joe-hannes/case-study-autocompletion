@@ -41,8 +41,6 @@ public class  Trie <T> {
      */
     private  void collectNodes(TrieNode node, String prefix, List<T> results) {
             if (node.isEndOfWord()) {
-
-                T content = (T) node.getContent();
                 results.add((T) node.getContent());
             }
 

@@ -4,12 +4,10 @@ import com.example.autocomplete_case_study.model.StationData;
 import org.springframework.stereotype.Service;
 
 import java.io.*;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
+
 
 /**
  * This class is responsible for fetching the data from the DB Station & Service server
@@ -22,8 +20,9 @@ public class DataImportService {
 
     /**
      * Requests the data and creates StationData objects.
+     *
      * @return A List containing each station as a StationData object.
-     * @throws IOException
+     * @throws IOException Throw exception if the URL cannot be accessed.
      */
     public static List<StationData> getData() throws IOException {
 
