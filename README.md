@@ -1,5 +1,5 @@
 # case-study-autocompletion
-This repository contains a demo autocompletion endpoint for the DB Sprintstarter case study.
+This repository contains a demo autocompletion endpoint for the DB Sprintstarter case study.  
 `GET <ip_adress>:<port>/api/v1/auto-complete/{input}`
 
 
