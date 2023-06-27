@@ -9,20 +9,20 @@ https://auto-complete-casestudy-production.up.railway.app/api/v1/auto-complete/H
 
 ### Prerequisites
 
-- this application is tested to run with JDK Version 17
+- this application is tested to run with JDK Version 17  
 
 ### Startup
 
-- package application
+- package application  
   `mvnw package`
 
-- compile and start application
+- compile and start application  
   `java -jar <shnapshot_name>.jar`
 
 ### with Docker
-- build image
+- build image  
   `docker build -t <image_name> .`
-- start container
+- start container  
   `docker start <image_name>`
 
   
