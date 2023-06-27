@@ -17,7 +17,7 @@ https://auto-complete-casestudy-production.up.railway.app/api/v1/auto-complete/H
   `mvnw package`
 
 - compile and start application  
-  `java -jar <shnapshot_name>.jar`
+  `java -jar <snapshot_name>.jar`
 
 ### with Docker
 - build image  
